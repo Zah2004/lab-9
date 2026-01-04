@@ -9,7 +9,7 @@
 <?php
 require_once("settings.php");
 
-$dbconn = @mysqli_connect($host, $user, $pwd, $sql_db);
+$dbconn = @mysqli_connect($host, $username, $password, $database);
 
 if ($dbconn) {
 
