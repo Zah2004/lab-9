@@ -1,4 +1,6 @@
-$host = "localhost"
+<?php
+$host = "localhost";
 $user = "root";
-$pwd = "";  
+$pwd = "";
 $sql_db = "exhibition_db";
+?>
